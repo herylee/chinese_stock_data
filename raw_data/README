@@ -1,0 +1,14 @@
+########################################
+#
+# Author: Joshua Shaw
+# Create Date: 2016/08/30
+# Description: data import 
+# Data Source: quotes.money.163.com/trade/lsjysj_{stock_code}.html
+#
+########################################
+
+1. 编写sql文件创建table。
+2. 数字使用varchar存储是合适的，原因是数字会一直变大
+3. 日期要清洗成yyyy-MM-dd格式
+4. 命令.separator ','
+5. .import xxx.csv table
