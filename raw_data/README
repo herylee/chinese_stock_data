@@ -3,7 +3,8 @@
 # Author: Joshua Shaw
 # Create Date: 2016/08/30
 # Description: data import 
-# Data Source: quotes.money.163.com/trade/lsjysj_{stock_code}.html
+# Data Source: 1) quotes.money.163.com/trade/lsjysj_{stock_code}.html
+#              2) jingzhi.funds.hexun.com/DataBase/jzzs.aspx?fundcode={fund_code}
 #
 ########################################
 
